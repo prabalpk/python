@@ -203,6 +203,7 @@
 #         return
 #     print(n)
 #     fun(n-1)
+# fun (6)
     
 # def fun (n) :
 #     if (n==0 | n==0) : 
@@ -213,28 +214,25 @@
 # print(fun(5))
 
 
-def fun2(n) :
-    if (n==0 ):
-        return 0
-    sum = n + fun2(n-1)
-    return sum
+# def fun2(n) :
+#     if (n==0 ):
+#         return 0
+#     sum = n + fun2(n-1)
+#     return sum
     
-s = fun2(5)
-print(s)
+# s = fun2(5)
+# print(s)
          
 
 
-def fun(list,index=0) :
-    if (index==len(list)) :
-        return
-    print(list[index],end=" ")
-    fun(list,index+1)
+# def fun(list,index=0) :
+#     if (index==len(list)) :
+#         return
+#     print(list[index],end=" ")
+#     fun(list,index+1)
 
-    
-
-
-list = [1,2,3,4,5,6,7]
-fun(list)
+# list = [1,2,3,4,5,6,7]
+# fun(list)
 
 
 
